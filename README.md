@@ -10,4 +10,6 @@ Script for file search inside archives. Requirements: libarchive(library and pyt
 # 2. Run:
     python search_for_a_file_in_archives.py <search_path> <search_pattern>
 Example:
+
     python search_for_a_file_in_archives.py . *.txt
+    
