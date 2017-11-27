@@ -2,7 +2,7 @@
 A bunch of automation scripts
 
 # search_for_a_file_in_archives.py
-Script for file search inside archives. Requirements: libarchive(library and python package), rarfile.
+Script for file search inside archives. Requirements: libarchive(library and python package), rarfile. Script search for archives recursively. The result of successfull search will be a list of absolute path to archives, that contains files matched your search.
 # How to:
 # 1. Install the requirements:
     sudo apt-get install libarchive-dev
