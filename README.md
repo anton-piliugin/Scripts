@@ -16,7 +16,7 @@ Example:
     
 Special characters that can be used in a search pattern:
 
-    * – matches everything
-    ? – matches any single character
-    [seq] – matches any character in seq
-    [!seq] – matches any character not in seq
+    * - matches everything
+    ? - matches any single character
+    [seq] - matches any character in seq
+    [!seq] - matches any character not in seq
