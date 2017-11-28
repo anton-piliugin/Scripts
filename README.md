@@ -11,14 +11,13 @@ Script searches for archives recursively. The result of search will be a list of
 # 2. Run:
     python search_for_a_file_in_archives.py <search_path> <search_pattern>
   
-Special characters that can be used in a search pattern:
-
+Special characters that can be used in a search pattern(Unix shell wildcard syntax):
     * - matches everything
     ? - matches any single character
     [seq] - matches any character in seq
     [!seq] - matches any character not in seq
+    For a literal match, wrap the meta-characters in brackets. For example, '[?]' matches the character '?'
 
 Examples:
-
     python search_for_a_file_in_archives.py . *.txt
     python search_for_a_file_in_archives.py /home/ README.md
