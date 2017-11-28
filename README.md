@@ -18,7 +18,8 @@ Special characters that can be used in a search pattern:
     [seq] - matches any character in seq
     [!seq] - matches any character not in seq
 
-Example:
+Examples:
 
     python search_for_a_file_in_archives.py . *.txt
-  
+    
+    python search_for_a_file_in_archives.py /home/user/ README.md
