@@ -1,5 +1,5 @@
 # Scripts
-A bunch of automation scripts
+A bunch of automation scripts to run under Linux
 
 # search_for_a_file_in_archives.py
 Script for file search inside archives. Requirements: libarchive(library and python package), rarfile. Script search for archives recursively. The result of successfull search will be a list of absolute path to archives, that contains files matched your search.
