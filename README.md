@@ -10,13 +10,15 @@ Script searches for archives recursively. The result of successfull search will 
     sudo pip install libarchive rarfile
 # 2. Run:
     python search_for_a_file_in_archives.py <search_path> <search_pattern>
-Example:
-
-    python search_for_a_file_in_archives.py . *.txt
-    
+  
 Special characters that can be used in a search pattern:
 
     * - matches everything
     ? - matches any single character
     [seq] - matches any character in seq
     [!seq] - matches any character not in seq
+
+Example:
+
+    python search_for_a_file_in_archives.py . *.txt
+  
