@@ -25,4 +25,4 @@ Examples:
     python search_for_a_file_in_archives.py . *.txt
     python search_for_a_file_in_archives.py /home/ README.md
     python search_for_a_file_in_archives.py /home/ READ??.md
-    python search_for_a_file_in_archives.py /home/ [A-Z]EADME.md
+    python search_for_a_file_in_archives.py /home/ READ[A-Z][A-Z].md
