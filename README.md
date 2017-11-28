@@ -21,4 +21,4 @@ Special characters that can be used in a search pattern:
 Examples:
 
     python search_for_a_file_in_archives.py . *.txt
-    python search_for_a_file_in_archives.py /home/user/ README.md
+    python search_for_a_file_in_archives.py /home/ README.md
