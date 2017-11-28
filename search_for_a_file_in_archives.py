@@ -2,7 +2,7 @@
 
 import libarchive.public, rarfile, locale, fnmatch, os, sys
 
-locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
+locale.setlocale(locale.LC_ALL, '')
 
 def find_files(directory):
     found = set()
