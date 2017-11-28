@@ -5,7 +5,6 @@ import libarchive.public, rarfile, locale, fnmatch, os, sys
 locale.setlocale(locale.LC_ALL, '')
 
 def find_files(directory):
-    found = set()
     for root, dirs, files in os.walk(directory):
         for basename in files:
             if fnmatch.fnmatch(basename, '*.7z') or fnmatch.fnmatch(basename, '*.gz') or fnmatch.fnmatch(basename, '*.rar') or fnmatch.fnmatch(basename, '*.tar') or fnmatch.fnmatch(basename, '*.tar.*') or fnmatch.fnmatch(basename, '*.zip'):
