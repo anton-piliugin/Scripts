@@ -18,12 +18,12 @@ def find_file(filename, pattern):
         if os.path.splitext(filename)[1] == '.rar':
             with rarfile.RarFile(filename) as archive:
                 for entry in archive.infolist():
-                    if fnmatch.fnmatch(os.path.splitext(entry.filename)[1], pattern):
+                    if fnmatch.fnmatch(os.path.basename(entry.filename), pattern):
                         found.add(filename)
         else:
             with libarchive.public.file_reader(filename) as archive:
                 for entry in archive:
-                    if fnmatch.fnmatch(os.path.splitext(entry.pathname)[1], pattern):
+                    if fnmatch.fnmatch(os.path.basename(entry.pathname), pattern):
                         found.add(filename)
     except:
         pass
