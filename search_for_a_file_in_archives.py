@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 
-import libarchive.public, rarfile, locale, fnmatch, os, sys
+import libarchive.public
+import rarfile
+import locale
+import fnmatch
+import os
+import sys
 
 locale.setlocale(locale.LC_ALL, '')
 
